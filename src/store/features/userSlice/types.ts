@@ -1,9 +1,9 @@
-export interface UserState {
+export interface UserState extends User {
   isLogged: boolean;
 }
 
 export interface User {
-  username: string;
+  name: string;
   token: string;
   id: string;
 }

@@ -3,7 +3,6 @@ import { UserState, User } from "./types";
 
 const initialState: UserState = {
   name: "",
-  password: "",
   isLogged: false,
   token: "",
   id: "",
